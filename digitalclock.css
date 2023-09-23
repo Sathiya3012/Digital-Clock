@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+}
+#background{
+    background-color:#EE82EE;
+    height: 100vh;
+}
+#clock{
+    padding: 25px;
+    margin-left: 420px;
+    font-size: 100px
+}
+#background h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: monospace;
+    padding: 50px;
+    text-shadow:2px 5px black;
+    letter-spacing: 20px;
+}
+#dates{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: bolder;
+    border: 1px solid black;
+    display: inline;
+    padding: 10px;
+    margin-left: 550px;
+    background-color: rgba(0, 0, 0, 0.571);
+    letter-spacing: 10px;
+    border-radius: 25px 0px 25px 0px;
+}
+#button{
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 650px;
+    line-height: 30px;
+}
+.btn{
+    padding: 15px 20px;
+    background-color: white;
+    color: purple;
+    font-weight: bolder;
+    border:2px solid purple;
+    border-radius: 10px;    
+}
+.btn:hover{
+    background-color: purple;
+    color: white;
+    transition-duration:0.5s ;
+}
+
+
+
